@@ -3,6 +3,7 @@ import IdCard from './components/IdCard';
 import Greetings from './components/Greetings';
 import Random from './components/Random';
 import LikeButton from './components/LikeButton';
+import ClickablePicture from './components/ClickablePicture';
 
 function App() {
 
@@ -38,7 +39,12 @@ function App() {
 
       {/* Iteration 8 */}
         <LikeButton />
-        
+
+      {/* Iteration 9 */}
+        <ClickablePicture
+          img='maxence.png'
+          imgClicked='maxence-glasses.png'
+        />
     </div>
   );
 }
