@@ -5,6 +5,7 @@ import Random from './components/Random';
 import LikeButton from './components/LikeButton';
 import ClickablePicture from './components/ClickablePicture';
 import Dice from './components/Dice';
+import NumbersTable from './components/NumbersTable';
 
 function App() {
 
@@ -49,6 +50,10 @@ function App() {
 
         {/* Iteration 10 */}
         <Dice />
+
+        {/* Iteration 12 */}
+        <NumbersTable limit={12} />
+
     </div>
   );
 }

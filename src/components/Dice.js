@@ -28,8 +28,3 @@ function Dice() {
 }
 
 export default Dice;
-
-
-// Pseudocode
-// onclick - toggle empty dice and random dice 
-// generate a random dice and show it when toggled 
